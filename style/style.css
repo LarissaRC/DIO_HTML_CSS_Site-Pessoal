@@ -6,6 +6,7 @@ body {
     margin-top: 20px;
     width: 100px;
     height: 100px;
+    border: 3px solid rgb(189, 189, 189);
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -14,8 +15,9 @@ body {
 
 .header {
     background-color: white;
-    border: 3px solid #fcfcfc;
-    margin: -8px;
+    border: 3px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 article {
@@ -25,6 +27,7 @@ article {
 #title{
     color: rgb(43, 43, 43);
     text-align: center;
+    font-family: monospace;
 }
 
 .posts {
@@ -41,16 +44,29 @@ article {
 }
 
 .subtitle{
+    font-family: monospace;
+    font-size: 25px;
     text-align: center;
     color: rgb(49, 49, 49);
 }
 
 .posttitle {
+    text-transform: uppercase;
+    font-family: monospace;
     color: rgb(58, 58, 58);
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify;
 }
 
 .footer {
     background-color: rgb(36, 36, 36);
+}
+
+.footer li {
+    list-style: square;
 }
 
 .footer a{
